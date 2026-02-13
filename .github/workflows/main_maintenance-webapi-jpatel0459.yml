@@ -9,42 +9,34 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up .NET Core
+      - name: Set up .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x'
-
-      - name: Build project
-        run: dotnet build Maintenance.WebAPI/Maintenance.WebAPI.csproj --configuration Release
+          dotnet-version: '8.0.x'
 
       - name: Publish project
-        run: dotnet publish Maintenance.WebAPI/Maintenance.WebAPI.csproj -c Release -o publish
+        run: dotnet publish Maintenance.WebAPI/Maintenance.WebAPI.csproj -c Release -o ./publish
 
-      - name: Upload publish folder as artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: publish-artifact
-          path: publish
+          path: ./publish
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    permissions:
-      id-token: write
-      contents: read
 
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: publish-artifact
-          path: publish
+          path: ./publish
 
       - name: Login to Azure
         uses: azure/login@v2
@@ -53,9 +45,8 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_D3464B1ABA174BF4A8BF7840AC3A1465 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_C2ED6790AD2E4452ACC397F340BD997A }}
 
-      - name: Deploy to Azure Web App
+      - name: Deploy to Azure
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'maintenance-webapi-jpatel0459'
-          slot-name: 'Production'
-          package: publish
+          app-name: maintenance-webapi-jpatel0459
+          package: ./publish
