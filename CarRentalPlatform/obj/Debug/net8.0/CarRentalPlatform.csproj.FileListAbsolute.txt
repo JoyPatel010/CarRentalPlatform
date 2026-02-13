@@ -240,6 +240,7 @@ D:\Programming Distributed Applications Development\CarRentalPlatform\CarRentalP
 D:\Programming Distributed Applications Development\CarRentalPlatform\CarRentalPlatform\obj\Debug\net8.0\CarRentalPlatform.MvcApplicationPartsAssemblyInfo.cache
 D:\Programming Distributed Applications Development\CarRentalPlatform\CarRentalPlatform\obj\Debug\net8.0\CarRentalPlatform.RazorAssemblyInfo.cache
 D:\Programming Distributed Applications Development\CarRentalPlatform\CarRentalPlatform\obj\Debug\net8.0\CarRentalPlatform.RazorAssemblyInfo.cs
+D:\Programming Distributed Applications Development\CarRentalPlatform\CarRentalPlatform\obj\Debug\net8.0\CarRentalPlatform.sourcelink.json
 D:\Programming Distributed Applications Development\CarRentalPlatform\CarRentalPlatform\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\Programming Distributed Applications Development\CarRentalPlatform\CarRentalPlatform\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Programming Distributed Applications Development\CarRentalPlatform\CarRentalPlatform\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
