@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\services\\irepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\services\\irepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\services\\fakerepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\services\\fakerepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\services\\irepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\services\\irepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\models\\repairhistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\models\\repairhistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\customersprofile.webapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,24 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MaintenanceController.cs",
               "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Controllers\\MaintenanceController.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Controllers\\MaintenanceController.cs",
               "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Controllers\\MaintenanceController.cs",
               "RelativeToolTip": "Maintenance.WebAPI\\Controllers\\MaintenanceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T04:03:11.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Program.cs",
@@ -104,39 +104,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FakeRepairHistoryService.cs",
               "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Services\\FakeRepairHistoryService.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Services\\FakeRepairHistoryService.cs",
               "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Services\\FakeRepairHistoryService.cs",
               "RelativeToolTip": "Maintenance.WebAPI\\Services\\FakeRepairHistoryService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T04:01:10.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "IRepairHistoryService.cs",
               "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Services\\IRepairHistoryService.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Services\\IRepairHistoryService.cs",
               "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Services\\IRepairHistoryService.cs",
               "RelativeToolTip": "Maintenance.WebAPI\\Services\\IRepairHistoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T04:00:37.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "RepairHistoryDto.cs",
               "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Models\\RepairHistoryDto.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Models\\RepairHistoryDto.cs",
               "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Models\\RepairHistoryDto.cs",
               "RelativeToolTip": "Maintenance.WebAPI\\Models\\RepairHistoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T03:59:56.573Z",
               "EditorCaption": ""
