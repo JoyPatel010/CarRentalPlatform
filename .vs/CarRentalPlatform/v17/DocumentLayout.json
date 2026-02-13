@@ -1,0 +1,282 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\services\\irepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\services\\irepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\services\\fakerepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\services\\fakerepairhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\models\\repairhistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\models\\repairhistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\maintenance.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999405EE-9B65-408C-A9C5-A7D3BB51C247}|Maintenance.WebAPI\\Maintenance.WebAPI.csproj|solutionrelative:maintenance.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\customersprofile.webapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|solutionrelative:customersprofile.webapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\customersprofile.webapi\\models\\custmerprofilecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|solutionrelative:customersprofile.webapi\\models\\custmerprofilecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\customersprofile.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|solutionrelative:customersprofile.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\customersprofile.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|solutionrelative:customersprofile.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\customersprofile.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|solutionrelative:customersprofile.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|d:\\programming distributed applications development\\carrentalplatform\\customersprofile.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D91A386-4C03-47FA-AE44-CD818FB859F6}|CustomersProfile.WebAPI\\CustomersProfile.WebAPI.csproj|solutionrelative:customersprofile.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|d:\\programming distributed applications development\\carrentalplatform\\carrentalplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|solutionrelative:carrentalplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|d:\\programming distributed applications development\\carrentalplatform\\carrentalplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|solutionrelative:carrentalplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|d:\\programming distributed applications development\\carrentalplatform\\carrentalplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|solutionrelative:carrentalplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|d:\\programming distributed applications development\\carrentalplatform\\carrentalplatform\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|solutionrelative:carrentalplatform\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|d:\\programming distributed applications development\\carrentalplatform\\carrentalplatform\\models\\custmerprofilecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172A5CCC-F0F7-46F8-98D0-9F94426B87A5}|CarRentalPlatform\\CarRentalPlatform.csproj|solutionrelative:carrentalplatform\\models\\custmerprofilecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaintenanceController.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Controllers\\MaintenanceController.cs",
+              "RelativeDocumentMoniker": "Maintenance.WebAPI\\Controllers\\MaintenanceController.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Controllers\\MaintenanceController.cs",
+              "RelativeToolTip": "Maintenance.WebAPI\\Controllers\\MaintenanceController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:03:11.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Maintenance.WebAPI\\Program.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Program.cs",
+              "RelativeToolTip": "Maintenance.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:02:02.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FakeRepairHistoryService.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Services\\FakeRepairHistoryService.cs",
+              "RelativeDocumentMoniker": "Maintenance.WebAPI\\Services\\FakeRepairHistoryService.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Services\\FakeRepairHistoryService.cs",
+              "RelativeToolTip": "Maintenance.WebAPI\\Services\\FakeRepairHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:01:10.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRepairHistoryService.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Services\\IRepairHistoryService.cs",
+              "RelativeDocumentMoniker": "Maintenance.WebAPI\\Services\\IRepairHistoryService.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Services\\IRepairHistoryService.cs",
+              "RelativeToolTip": "Maintenance.WebAPI\\Services\\IRepairHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:00:37.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepairHistoryDto.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Models\\RepairHistoryDto.cs",
+              "RelativeDocumentMoniker": "Maintenance.WebAPI\\Models\\RepairHistoryDto.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\Maintenance.WebAPI\\Models\\RepairHistoryDto.cs",
+              "RelativeToolTip": "Maintenance.WebAPI\\Models\\RepairHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T03:59:56.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomersProfile.WebAPI\\Models\\Customer.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomersProfile.WebAPI\\Models\\Customer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T22:32:55.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CustomersProfile.WebAPI\\Program.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Program.cs",
+              "RelativeToolTip": "CustomersProfile.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T22:23:46.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CustomersProfile.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CustomersProfile.WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-29T22:17:54.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CustomersProfile.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\appsettings.json",
+              "RelativeToolTip": "CustomersProfile.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-29T22:17:32.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CustomersProfile.WebAPI\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CustomersProfile.WebAPI\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T03:16:43.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustmerProfileContext.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Models\\CustmerProfileContext.cs",
+              "RelativeDocumentMoniker": "CustomersProfile.WebAPI\\Models\\CustmerProfileContext.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CustomersProfile.WebAPI\\Models\\CustmerProfileContext.cs",
+              "RelativeToolTip": "CustomersProfile.WebAPI\\Models\\CustmerProfileContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T03:15:04.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\Program.cs",
+              "RelativeDocumentMoniker": "CarRentalPlatform\\Program.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\Program.cs",
+              "RelativeToolTip": "CarRentalPlatform\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T02:38:25.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\appsettings.json",
+              "RelativeDocumentMoniker": "CarRentalPlatform\\appsettings.json",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\appsettings.json",
+              "RelativeToolTip": "CarRentalPlatform\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-29T02:29:40.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CarRentalPlatform\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CarRentalPlatform\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwCIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-29T02:27:03.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CarRentalPlatform\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CarRentalPlatform\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwBcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T02:22:13.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustmerProfileContext.cs",
+              "DocumentMoniker": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\Models\\CustmerProfileContext.cs",
+              "RelativeDocumentMoniker": "CarRentalPlatform\\Models\\CustmerProfileContext.cs",
+              "ToolTip": "D:\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\Models\\CustmerProfileContext.cs",
+              "RelativeToolTip": "CarRentalPlatform\\Models\\CustmerProfileContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T02:21:06.203Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
