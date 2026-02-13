@@ -1,4 +1,4 @@
-name: Deploy MVC App
+name: Build and deploy ASP.Net Core app to Azure Web App - carrental-mvc-jpatel0459
 
 on:
   push:
@@ -7,12 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
-    permissions:
-      id-token: write
-      contents: read
 
     steps:
       - uses: actions/checkout@v4
@@ -25,8 +21,30 @@ jobs:
       - name: Restore
         run: dotnet restore CarRentalPlatform/CarRentalPlatform.csproj
 
+      - name: Build
+        run: dotnet build CarRentalPlatform/CarRentalPlatform.csproj --configuration Release --no-restore
+
       - name: Publish
-        run: dotnet publish CarRentalPlatform/CarRentalPlatform.csproj -c Release -o publish
+        run: dotnet publish CarRentalPlatform/CarRentalPlatform.csproj -c Release -o ./publish
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app
+          path: ./publish
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: app
 
       - name: Azure Login
         uses: azure/login@v2
@@ -35,8 +53,8 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A2539CA01FCD417680DF241B4EA9378D }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5D78B28618264FDEBC6D97F63DEB9E49 }}
 
-      - name: Deploy to Azure
+      - name: Deploy
         uses: azure/webapps-deploy@v3
         with:
           app-name: carrental-mvc-jpatel0459
-          package: publish
+          package: .
