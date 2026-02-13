@@ -26,10 +26,10 @@ jobs:
       - name: Publish project
         run: dotnet publish Maintenance.WebAPI/Maintenance.WebAPI.csproj -c Release -o publish
 
-      - name: Upload artifact
+      - name: Upload publish folder as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: webapp
+          name: publish-artifact
           path: publish
 
   deploy:
@@ -43,7 +43,8 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: webapp
+          name: publish-artifact
+          path: publish
 
       - name: Login to Azure
         uses: azure/login@v2
@@ -57,5 +58,4 @@ jobs:
         with:
           app-name: 'maintenance-webapi-jpatel0459'
           slot-name: 'Production'
-          package: webapp
-
+          package: publish
