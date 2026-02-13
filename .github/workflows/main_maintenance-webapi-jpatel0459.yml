@@ -44,7 +44,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: webapp
-          path: publish
 
       - name: Login to Azure
         uses: azure/login@v2
@@ -58,4 +57,5 @@ jobs:
         with:
           app-name: 'maintenance-webapi-jpatel0459'
           slot-name: 'Production'
-          package: publish
+          package: webapp
+
