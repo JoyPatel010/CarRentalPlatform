@@ -1,10 +1,14 @@
-name: Build and deploy ASP.Net Core MVC app to Azure
+name: Build and deploy ASP.NET Core app to Azure Web App - carrental-mvc-jpatel0459
 
 on:
   push:
     branches:
       - main
   workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: carrental-mvc-jpatel0459
+  PROJECT_PATH: CarRentalPlatform/CarRentalPlatform.csproj
 
 jobs:
   build:
@@ -18,19 +22,19 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Restore dependencies
-        run: dotnet restore ./CarRentalPlatform/CarRentalPlatform.csproj
+      - name: Restore
+        run: dotnet restore ${{ env.PROJECT_PATH }}
 
       - name: Build
-        run: dotnet build ./CarRentalPlatform/CarRentalPlatform.csproj --configuration Release --no-restore
+        run: dotnet build ${{ env.PROJECT_PATH }} --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish ./CarRentalPlatform/CarRentalPlatform.csproj --configuration Release --output ./publish
+        run: dotnet publish ${{ env.PROJECT_PATH }} --configuration Release --output ./publish
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: mvc-app
+          name: app
           path: ./publish
 
   deploy:
@@ -45,7 +49,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: mvc-app
+          name: app
 
       - name: Azure Login
         uses: azure/login@v2
@@ -57,5 +61,5 @@ jobs:
       - name: Deploy to Azure
         uses: azure/webapps-deploy@v3
         with:
-          app-name: carrental-mvc-jpatel0459
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
           package: .
