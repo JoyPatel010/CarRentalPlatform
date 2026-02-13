@@ -1,4 +1,4 @@
-name: Build and deploy ASP.Net Core MVC app to Azure Web App - carrental-mvc-jpatel0459
+name: Build and deploy ASP.Net Core MVC app to Azure
 
 on:
   push:
@@ -9,30 +9,24 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup .NET 8
+      - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
 
-      # Restore dependencies for MVC project
       - name: Restore dependencies
-        run: dotnet restore CarRentalPlatform/CarRentalPlatform.csproj
+        run: dotnet restore ./CarRentalPlatform/CarRentalPlatform.csproj
 
-      # Build ONLY MVC project
-      - name: Build MVC Project
-        run: dotnet build CarRentalPlatform/CarRentalPlatform.csproj --configuration Release --no-restore
+      - name: Build
+        run: dotnet build ./CarRentalPlatform/CarRentalPlatform.csproj --configuration Release --no-restore
 
-      # Publish ONLY MVC project
-      - name: Publish MVC Project
-        run: dotnet publish CarRentalPlatform/CarRentalPlatform.csproj -c Release -o ./publish --no-build
+      - name: Publish
+        run: dotnet publish ./CarRentalPlatform/CarRentalPlatform.csproj --configuration Release --output ./publish
 
-      # Upload published files
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -42,6 +36,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
+
     permissions:
       id-token: write
       contents: read
@@ -51,18 +46,16 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: mvc-app
-          path: ./publish
 
-      - name: Login to Azure
+      - name: Azure Login
         uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_782C1E6DB58E44DB9BEF053E51EE42E3 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A2539CA01FCD417680DF241B4EA9378D }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5D78B28618264FDEBC6D97F63DEB9E49 }}
 
-      - name: Deploy to Azure Web App
+      - name: Deploy to Azure
         uses: azure/webapps-deploy@v3
         with:
           app-name: carrental-mvc-jpatel0459
-          slot-name: Production
-          package: ./publish
+          package: .
